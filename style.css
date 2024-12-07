@@ -1,0 +1,307 @@
+body {
+    display: block;
+    margin: 0px;
+    background-color: #fbfcff;
+}
+
+#logo {
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.head {
+    position: sticky;
+    top: 0;
+    width: 100%; 
+    background-color: #404049; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    z-index: 100;
+}
+
+.nav50 {
+    display: flex;
+    width: 50%;
+}
+
+.justiRight {
+    justify-content: right;
+}
+
+nav {
+    align-self: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none; 
+    color: white;
+    font-size: 24px; 
+    font-family:"Yuji Mai", serif;
+    padding: 5px 5px;
+    font-style: normal; 
+}
+
+/*nav a:visited {
+    color: white;
+    Ví que no hacia falta
+    PD: el text shadow con transition para el glow lo saqué de internet pero lo adapté a mi caso
+}*/
+
+nav a:hover {
+    color: rgb(216, 118, 6);
+    text-shadow: 0 0 8px rgba(216, 118, 6, 0.8),
+                0 0 12px rgba(216, 118, 6, 0.6);
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #404042;
+    border-radius: 100%;
+}
+
+.floating-button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.floating-button:hover {
+    transform: scale(1);
+}
+
+
+.button-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    display: block;
+}
+
+.div50 {
+    width: 50%;
+}
+
+#introText {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    color: rgb(47, 6, 94);
+    text-align: center;
+}
+
+.bannerYT {
+    display: flex;
+}
+
+.marRight5 {
+    margin-right: 5px;
+}
+
+.YTembed  iframe {
+    width: 100%;
+    margin-top: 8px;
+}
+
+header h1 {
+    font-family: "Anton SC", sans-serif;
+    color: rgb(29, 29, 29);
+    text-align: center;
+}
+
+.dblock {
+    display: block;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+header li {
+    margin-bottom: 2rem;
+}
+
+header ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 27px; 
+    text-decoration: none;
+    font-family:"Yuji Mai", serif;
+
+}
+
+header a:hover {
+    color: rgb(69, 6, 216);
+    text-shadow: 0 0 8px rgba(69, 6, 216, 0.8),
+                0 0 12px rgba(69, 6, 216, 0.6);
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.section{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#grupos {
+    background-color: #ffffff;
+}
+
+#grupos > h1 {
+    padding-left: 4rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    margin-bottom: -1rem;
+}
+
+.section > h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    color: rgb(150, 20, 20);
+    text-align: center;
+}
+
+#centred {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+table * {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+thead th {
+    background-color: #5D4037;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+tbody td {
+    padding: 12px;
+}
+/*primer*/
+tbody td:first-child {
+    background-color: #D2B48C;
+    color: black;
+    font-weight: bold;
+    
+}
+/*segundo*/
+tbody td:nth-child(2) {
+    background-color: #F5F5DC;
+    color: black;
+}
+
+tbody tr {
+    display: table-row;
+}
+
+.dflex {
+    display: flex;
+}
+
+.artist img{
+    width: 30rem;
+    border-radius: 1rem;
+}
+
+.artist {
+    border: dotted rgb(112, 15, 15) 5px;
+    align-content:center;
+    display: flex;
+    align-items: center;
+}
+
+.testo {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.psicodelia {
+    height: 20rem;
+    background-image:url(https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/articulo_760x422/public/2022-04/primus%20%281%29.jpg?itok=7yukYaba) ;
+}
+
+.psicodelia img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    object-fit: cover;
+}
+
+#loco {
+    color: #972626;
+    font-variant: small-caps;
+}
+
+#videoclips > h1 {
+    padding-left: 4rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    margin-bottom: -1rem;
+}
+
+#videoclips iframe {
+    height: 20rem;
+}
+
+
+#info {
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#info > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    margin-bottom: -1rem;
+}
+
+
+
+#info iframe {
+    height: 25rem;
+    width: 25rem;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    color: white;
+    font-family:"Yuji Mai", serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d20;
+}
+
+label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#rojo {
+    color: rgb(112, 15, 15);
+}

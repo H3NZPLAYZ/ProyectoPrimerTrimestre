@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+
+    <!--Fuentes de google y SVG de google para el botón-->
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_control_key" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Audioteca</title>
+</head>
+<body>
+    <!--Botón que fijo relativo a body-->
+    <div class="button-container">
+        <a href="#intro">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-424-56-56 280-280 280 280-56 56-224-223-224 223Z"/></svg>
+        </a>
+    </div>
+    <!--Div con la clase intro para corregir problemas con el sticky nav-->
+    <div id="intro">
+        <div class="head">
+            <div class="nav50">
+                <img id="logo" src="/assets/skullnote_transparent_white.png" alt="">
+            </div>
+            <!--Nav con sections-->
+            <div class="nav50 justiRight">
+                <nav>
+                    <a href="#intro">Intro</a>
+                    <a href="#grupos">Grupos</a>
+                    <a href="#videoclips">VideoClips</a>
+                    <a href="#info">Info</a>
+                </nav>
+            </div>
+        </div>
+        <!--Zona de intro real-->
+        <section id="" class="section">
+            <h1 id="introText">BIENVENIDO A MI PÁGINA SOBRE LA MÚSICA QUE ME MOLA</h1>
+            <div class="bannerYT">
+                <div class="div50 YTembed dblock marRight5">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jRxW5Vzeo0A" frameborder="0" allowfullscreen></iframe>
+                    <sub>Rammstein - Engel (Live at Rock im Park 2017)</sub>
+                </div>
+
+                <div class="div50 YTembed dblock">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JqKiH4UWrzk" frameborder="0" allowfullscreen></iframe>
+                    <sub>Primus - Shake Hands With Beef VideoClip Oficial</sub>
+                </div>
+            </div>
+        </section>
+        <section id="grupos" class="section">
+            <h1>Grupos</h1>
+            <!--Uso el header como idea sacada de W3Schools, sé que no es lo mejor ni tan necesario pero no sabía donde usarlo-->
+            <header id="headerBanner">
+                <!--Links con los id a los grupos-->
+                <h1>Información de cada banda que presentaré</h1>
+                <ul>
+                    <li><a href="#primus">Primus</a></li>
+                    <li><a href="#rammstein">Rammstein</a></li>
+                    <li><a href="#korol_i_shut">Korol i Shut</a></li>
+                    <li><a href="#sting">Sting</a></li>
+                </ul>
+            </header>
+            <p>
+                Los grupos presentados en esta web son algunas de mis bandas, artistas y representantes de algunos de mis géneros musicales favoritos. <br>
+                Mis gustos músicales incluyen muchos géneros musicales, de diferentes idiomas desde Español, Alemán, Ruso, Inglés, Italiano... <br>
+                Aquí doy una información básica de cada grupo
+            </p>
+            <!--Zona con todos los grupos linkados-->
+            <h2 id="primus">Primus</h2>
+                <div class="artist">
+                    <div class="div50 testo">
+                        <div>
+                            <h3>Componentes</h3>
+                            <p>Les Claypool, Larry LaLonde, Tim Alexander</p>
+                            <h3>Género</h3>
+                            <p>Primus combina rock alternativo, funk metal y elementos progresivos.<br> Su sonido experimental y poco convencional los ha hecho únicos en la escena musical​</p>
+                            <h3>Éxitos</h3>
+                            <p>"My Name Is Mud" - 13.4M reproducciones.</p>
+                            <p>"Jerry Was a Race Car Driver" - 8.7M reproducciones.</p>
+                            <p>"Wynona's Big Brown Beaver" - 7.2M reproducciones.</p>
+                        </div>
+                    </div>
+                    <div class="div50">
+                        <img src="/assets/groups/Primus.jpg" alt="">
+                    </div>
+                </div>
+            <h2 id="rammstein">Rammstein</h2>
+                <div class="artist">
+                    <div class="div50 testo">
+                        <div>
+                            <h3>Componentes</h3>
+                            <p>Till Lindemann, Richard Z. Kruspe, Paul Landers, Oliver Riedel, Christoph Schneider, Christian "Flake" Lorenz</p>
+                            <h3>Género</h3>
+                            <p>Rammstein es un grupo de metal industrial que combina elementos de hard rock, música electrónica y letras provocativas con un estilo teatral y potente.</p>
+                            <h3>Éxitos</h3>
+                            <p>"Du Hast" - 485M reproducciones.</p>
+                            <p>"Sonne" - 337M reproducciones.</p>
+                            <p>"Ich Will" - 287M reproducciones.</p>
+                        </div>
+                    </div>
+                    <div class="div50">
+                        <img src="/assets/groups/Rammstein.jpg" alt="">
+                    </div>
+                </div>
+            <h2 id="korol_i_shut">Korol i Shut</h2>
+                <div class="artist">
+                    <div class="div50 testo">
+                        <div>
+                            <h3>Componentes</h3>
+                            <p>Mikhail "Gorshok" Gorshenev, Andrei "Kniaz" Kniazev, y otros músicos.</p>
+                            <h3>Género</h3>
+                            <p>Korol i Shut mezcla punk rock con folk ruso, creando un estilo único que narra historias fantásticas y de terror en sus letras.</p>
+                            <h3>Éxitos</h3>
+                            <p>"Prygni So Skaly" - 15M reproducciones.</p>
+                            <p>"Kumushki" - 9.5M reproducciones.</p>
+                            <p>"Lesnik" - 6.7M reproducciones.</p>
+                        </div>
+                    </div>
+                    <div class="div50">
+                        <img src="/assets/groups/Korol i Shut.webp" alt="">
+                    </div>
+                </div>
+            <h2 id="sting">Sting</h2>
+                <div class="artist">
+                    <div class="div50 testo">
+                        <div>
+                            <h3>Componentes</h3>
+                            <p>Sting</p>
+                            <h3>Género</h3>
+                            <p>Sting combina pop, rock, jazz y música clásica, explorando temas líricos profundos con un enfoque melódico sofisticado.</p>
+                            <h3>Éxitos</h3>
+                            <p>"Shape of My Heart" - 400M reproducciones.</p>
+                            <p>"Englishman in New York" - 335M reproducciones.</p>
+                            <p>"Fragile" - 290M reproducciones.</p>
+                        </div>
+                    </div>
+                    <div class="div50">
+                        <img src="/assets/groups/Sting.jpg" alt="">
+                    </div>
+                </div>
+            <br>
+            <!--Tabla de oyentes-->
+            <div class="dflex">
+                <div class="div50">
+                    <p style="justify-content: center; align-items: center;text-align: center">Aquí muestro un recuento de oyentes de mis grupos favoritos</p>
+                    <div id="centred">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Grupo</th>
+                                <th>Oyentes Mensuales en Spotify</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Primus</td>
+                                <td>2.4M</td>
+                            </tr>
+                            <tr>
+                                <td>Rammstein</td>
+                                <td>12.7M</td>
+                            </tr>
+                            <tr>
+                                <td>Korol i Shut</td>
+                                <td>1.6M</td>
+                            </tr>
+                            <tr>
+                                <td>Sting</td>
+                                <td>13.6M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+                <!--Uso de img background y opacity-->
+                <!--Intenté usar una textura en mosaico y otra imagen de tal forma que quitase el color la imagen con transparencia pero me rendí-->
+                <div class="div50 psicodelia">
+                    <img src="https://i5.walmartimages.com/asr/32364887-05fc-4937-9032-c9f572e48c50.369cfc7a23c14af0fa3a231a3fca7d3e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="">
+                    <p>Aquí quise usar la opacidad para un efecto visual pero me volví un poco <span id="loco">loco</span>, me rendí y así expreso como me sentí</p>
+                </div>    
+            </div>
+        </section>
+                <!--VideoClips de algunas de mis canciones favs-->
+        <section id="videoclips" class="section">
+            <h1>VideoClips</h1>
+            <p>Aquí muestro algunos de mis videoclips favoritos</p>
+            <div class="dflex">
+                <div class="div50 YTembed dblock marRight5">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/C3lWwBslWqg" frameborder="0" allowfullscreen></iframe>
+                    <sub> Sting - Desert Rose </sub>
+                </div>
+                <div class="div50 YTembed dblock marRight5">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/znhskwQoUSY" frameborder="0" allowfullscreen></iframe>
+                    <sub>Korol i Shut - Фокусник</sub>
+                </div>    
+            </div>
+            <br><br>
+            
+            <div class="dflex">
+                <div class="div50 YTembed dblock marRight5">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GukNjYQZW8s" frameborder="0" allowfullscreen></iframe>
+                    <sub>Rammstein - Haifisch (Official Video)</sub>
+                </div>
+                <div class="div50 YTembed dblock marRight5">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aYDfwUJzYQg" frameborder="0" allowfullscreen></iframe>
+                    <sub>Primus - Wynona's Big Brown Beaver</sub>
+                </div>   
+            </div>
+            <br><br>
+            
+        </section>
+        <!--Formulario chorra-->
+        <section id="info" class="section">
+            <h1>Información</h1>
+            <div class="dflex">
+                <div class="div50">  
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre<span id="rojo">*</span>:</label><br>
+                        <input type="text" id="name" name="name" required><br><br>
+
+                        <label for="like?">Ta molao la página</label><br>
+                        <input type="checkbox" value="yes"><br><br>
+                
+                        <label for="edad">Edad:</label><br>
+                        <input type="number"><br><br>
+                
+                        <label for="genero">Género:</label><br>
+                        <input type="radio" value="masculino">
+                        <label for="hombre">Hombre</label><br>
+                        <input type="radio" value="femenino">
+                        <label for="mujer">Mujer</label><br>
+                        <input type="radio" value="femenino">
+                        <label for="otro">Otro</label><br><br>
+
+                        <label for="mensaje">Mensaje<span id="rojo">*</span>:</label><br>
+                        <textarea required></textarea><br><br>
+                
+                        <input type="submit" value="Enviar">
+                    </form>
+                    <br>
+                    <!--Espero que no te haya asustado mucho jeje-->
+                    <audio controls>
+                        <source src="/assets/audio/soundProy.mp3" type="audio/mpeg">
+                    </audio>                  
+                </div>
+                <!--Mapa de donde soy por usarlo en la página-->
+                <div class="div50">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16069.182466685661!2d-4.103718737075269!3d36.74214249924612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72387ea8d3def7%3A0x9705cfdef8634ae1!2sTorre%20del%20Mar%2C%20M%C3%A1laga!5e1!3m2!1ses!2ses!4v1733517146289!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br>
+                    <sub>Un mapa para mostrar de donde soy</sub>
+                </div>    
+            </div>
+        </section>
+    </div>
+    <!--Footer báscio-->
+    <footer><p>Trabajo realizado por Hugo</p></footer>
+</body>
+</html>
